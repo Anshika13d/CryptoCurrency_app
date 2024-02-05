@@ -29,7 +29,7 @@ function App() {
       
       <div className='footer'>
         <Typography.Title level={5} style={{color:"white", textAlign:'center'}}> Copyright © 2024
-          Cryptoverse <br />
+          CryptoNebula <br />
           All Rights Reserved
         </Typography.Title>
         <Space>

@@ -11,10 +11,8 @@ function CryptoCurrencies( { simplified } ) {
 
   const {data: cryptosList, isFetching} = useGetCryptosQuery(count);
 
-  if(isFetching) return 'Loading...'
-
   const [cryptos, setCryptos] = useState(cryptosList?.data?.coins);
-  console.log(cryptos);
+  if(isFetching) return 'Loading...'
 
   return (
       <>
